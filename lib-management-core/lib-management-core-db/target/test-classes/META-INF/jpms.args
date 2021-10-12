@@ -1,4 +1,0 @@
---patch-module
-lib.management.core.db=_
---add-reads
-lib.management.core.db=ALL-UNNAMED

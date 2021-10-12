@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lib.management.ui.controller.LoginController">
    <children>
       <Label layoutX="100.0" layoutY="91.0" prefHeight="31.0" prefWidth="130.0" text="Username">
@@ -23,5 +22,6 @@
       <PasswordField fx:id="password" layoutX="195.0" layoutY="171.0" prefHeight="26.0" prefWidth="260.0" />
       <TextField fx:id="username" layoutX="195.0" layoutY="97.0" prefHeight="26.0" prefWidth="266.0" />
       <Button layoutX="92.0" layoutY="251.0" mnemonicParsing="false" onAction="#validateUser" prefHeight="26.0" prefWidth="186.0" text="Submit" />
+      <Button layoutX="290.0" layoutY="252.0" mnemonicParsing="false" onAction="#closeloginScreen" prefHeight="26.0" prefWidth="198.0" text="Close" />
    </children>
 </AnchorPane>

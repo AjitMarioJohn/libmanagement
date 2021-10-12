@@ -1,4 +1,0 @@
---patch-module
-lib.management.common=_
---add-reads
-lib.management.common=ALL-UNNAMED
