@@ -1,0 +1,8 @@
+com\lib\management\domain\factory\impl\DomainServiceFactoryImpl.class
+com\lib\management\domain\model\User.class
+com\lib\management\domain\factory\DomainFactory.class
+com\lib\management\domain\service\impl\LoginDomainServiceImpl.class
+module-info.class
+com\lib\management\domain\factory\DomainServiceFactory.class
+com\lib\management\domain\service\LoginDomainService.class
+com\lib\management\domain\factory\DomainFactory$DomainFactoryInjector.class

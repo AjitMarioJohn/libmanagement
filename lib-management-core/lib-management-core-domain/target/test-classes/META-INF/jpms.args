@@ -1,0 +1,4 @@
+--patch-module
+lib.management.core.domain=_
+--add-reads
+lib.management.core.domain=ALL-UNNAMED
