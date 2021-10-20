@@ -1,4 +1,5 @@
 module-info.class
+com\lib\management\core\db\DatabaseDriver$DatabaseDriverInitiator.class
 com\lib\management\core\db\model\User.class
 com\lib\management\core\db\service\impl\LoginDbServiceImpl.class
 com\lib\management\core\db\service\LoginDbService.class

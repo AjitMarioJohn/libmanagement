@@ -11,12 +11,11 @@ import java.sql.SQLException;
 import java.util.Optional;
 import java.util.Properties;
 
-public enum DatabaseDriver {
-    DB;
+public class DatabaseDriver {
     private Connection connection;
-    DatabaseDriver() {
+    private DatabaseDriver() {
         try {
-            Properties properties = PropertiesHolderUtils.loadPropertiesFile("config.properties");
+            Properties properties = PropertiesHolderUtils.loadPropertiesFile("dbConfig.properties");
             Class.forName(properties.getProperty(AppPropertyEnum.DB_DRIVER_CLASS.getFileString()));
             connection = DriverManager.getConnection(properties.getProperty(AppPropertyEnum.DB_URL.getFileString()), properties.getProperty(AppPropertyEnum.DB_USER.getFileString()), properties.getProperty(AppPropertyEnum.DB_PASSWORD.getFileString()));
         } catch (ClassNotFoundException | SQLException | IOException e) {
@@ -24,7 +23,14 @@ public enum DatabaseDriver {
         }
     }
 
+    private static class DatabaseDriverInitiator {
+        private static final DatabaseDriver INSTANCE = new DatabaseDriver();
+    }
+
+    public static DatabaseDriver getInstance(){
+        return DatabaseDriverInitiator.INSTANCE;
+    }
     public Connection getConnection() throws ConnectionFailedException {
-        return Optional.of(connection).orElseThrow(ConnectionFailedException :: new);
+        return Optional.ofNullable(connection).orElseThrow(ConnectionFailedException :: new);
     }
 }
