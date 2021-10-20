@@ -5,7 +5,7 @@ public enum ScreenNames {
 
     private final String fileName;
     private final String cssName;
-    private final String basePath = "fxml/";
+    private final String basePath = "/fxml/";
 
     private ScreenNames(String fileName, String cssName) {
         this.fileName = this.basePath+fileName;

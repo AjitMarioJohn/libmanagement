@@ -24,4 +24,20 @@
           <scope>compile</scope>
       </dependency>
   </dependencies>
+  <build>
+    <!-- Loading all ${} -->
+    <filters>
+      <filter>${project.basedir}/src/main/resources/env/config.${env}.properties</filter>
+    </filters>
+    <!-- Map ${} into resources -->
+    <resources>
+      <resource>
+        <directory>${project.parent.basedir}/src/main/resources</directory>
+        <filtering>true</filtering>
+        <includes>
+          <include>*.properties</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
 </project>

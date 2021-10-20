@@ -16,4 +16,5 @@ module com.lib.management.ui {
 
     opens com.lib.management.ui to javafx.fxml, javafx.graphics;
     opens com.lib.management.ui.controller to javafx.fxml, javafx.graphics;
+    opens com.lib.management.ui.utils to javafx.fxml, javafx.graphics;
 }

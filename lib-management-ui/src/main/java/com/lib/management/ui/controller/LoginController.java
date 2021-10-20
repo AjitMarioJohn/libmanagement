@@ -1,7 +1,7 @@
 package com.lib.management.ui.controller;
 
 import com.lib.management.common.exception.ConnectionFailedException;
-import com.lib.management.ui.FxmlUtils;
+import com.lib.management.ui.utils.FxmlUtils;
 import com.lib.management.ui.common.ModuleFactory;
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;

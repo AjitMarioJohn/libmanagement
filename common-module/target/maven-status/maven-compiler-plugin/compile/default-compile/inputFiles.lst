@@ -1,2 +1,5 @@
-D:\Projects\libraryManagement\common-module\src\main\java\module-info.java
-D:\Projects\libraryManagement\common-module\src\main\java\com\lib\management\common\exception\ConnectionFailedException.java
+D:\Projects\libmanagement\common-module\src\main\java\com\lib\management\common\utils\PropertiesHolderUtils.java
+D:\Projects\libmanagement\common-module\src\main\java\module-info.java
+D:\Projects\libmanagement\common-module\src\main\java\com\lib\management\common\model\AppProperties.java
+D:\Projects\libmanagement\common-module\src\main\java\com\lib\management\common\enums\AppPropertyEnum.java
+D:\Projects\libmanagement\common-module\src\main\java\com\lib\management\common\exception\ConnectionFailedException.java

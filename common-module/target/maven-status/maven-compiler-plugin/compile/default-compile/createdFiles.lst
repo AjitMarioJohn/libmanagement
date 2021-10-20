@@ -1,2 +1,5 @@
-module-info.class
 com\lib\management\common\exception\ConnectionFailedException.class
+com\lib\management\common\utils\PropertiesHolderUtils.class
+module-info.class
+com\lib\management\common\enums\AppPropertyEnum.class
+com\lib\management\common\model\AppProperties.class

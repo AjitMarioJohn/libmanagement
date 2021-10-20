@@ -1,7 +1,7 @@
-D:\Projects\libraryManagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\service\LoginDbService.java
-D:\Projects\libraryManagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\service\impl\LoginDbServiceImpl.java
-D:\Projects\libraryManagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\queries\DBQueries.java
-D:\Projects\libraryManagement\lib-management-core\lib-management-core-db\src\main\java\module-info.java
-D:\Projects\libraryManagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\DatabaseDriver.java
-D:\Projects\libraryManagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\model\User.java
-D:\Projects\libraryManagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\factory\DbServiceFactory.java
+D:\Projects\libmanagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\model\User.java
+D:\Projects\libmanagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\service\impl\LoginDbServiceImpl.java
+D:\Projects\libmanagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\factory\DbServiceFactory.java
+D:\Projects\libmanagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\queries\DBQueries.java
+D:\Projects\libmanagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\DatabaseDriver.java
+D:\Projects\libmanagement\lib-management-core\lib-management-core-db\src\main\java\module-info.java
+D:\Projects\libmanagement\lib-management-core\lib-management-core-db\src\main\java\com\lib\management\core\db\service\LoginDbService.java

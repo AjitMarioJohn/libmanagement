@@ -4,10 +4,13 @@
     <file url="file://$PROJECT_DIR$/common-module/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-module/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib-management-core/lib-management-core-db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-management-core/lib-management-core-db/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib-management-core/lib-management-core-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib-management-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib-management-ui/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib-management-ui/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib-management-ui/src/main/resources/fxml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

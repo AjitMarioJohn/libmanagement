@@ -1,6 +1,6 @@
-D:\Projects\libraryManagement\lib-management-ui\src\main\java\com\lib\management\ui\enums\ScreenNames.java
-D:\Projects\libraryManagement\lib-management-ui\src\main\java\com\lib\management\ui\controller\LoginController.java
-D:\Projects\libraryManagement\lib-management-ui\src\main\java\com\lib\management\ui\FxmlUtils.java
-D:\Projects\libraryManagement\lib-management-ui\src\main\java\module-info.java
-D:\Projects\libraryManagement\lib-management-ui\src\main\java\com\lib\management\ui\AppInitiator.java
-D:\Projects\libraryManagement\lib-management-ui\src\main\java\com\lib\management\ui\common\ModuleFactory.java
+D:\Projects\libmanagement\lib-management-ui\src\main\java\com\lib\management\ui\AppInitiator.java
+D:\Projects\libmanagement\lib-management-ui\src\main\java\com\lib\management\ui\common\ModuleFactory.java
+D:\Projects\libmanagement\lib-management-ui\src\main\java\com\lib\management\ui\enums\ScreenNames.java
+D:\Projects\libmanagement\lib-management-ui\src\main\java\module-info.java
+D:\Projects\libmanagement\lib-management-ui\src\main\java\com\lib\management\ui\utils\FxmlUtils.java
+D:\Projects\libmanagement\lib-management-ui\src\main\java\com\lib\management\ui\controller\LoginController.java

@@ -1,21 +1,25 @@
 package com.lib.management.core.db;
 
+import com.lib.management.common.enums.AppPropertyEnum;
 import com.lib.management.common.exception.ConnectionFailedException;
+import com.lib.management.common.utils.PropertiesHolderUtils;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Optional;
+import java.util.Properties;
 
 public enum DatabaseDriver {
-    DB("com.mysql.cj.jdbc.Driver","jdbc:mysql://ec2-18-223-117-135.us-east-2.compute.amazonaws.com:3306/lib_management",
-            "root", "Mysql@123");
+    DB;
     private Connection connection;
-    DatabaseDriver(String driverUrl, String dbUrl, String username, String password) {
+    DatabaseDriver() {
         try {
-            Class.forName(driverUrl);
-            connection = DriverManager.getConnection(dbUrl, username, password);
-        } catch (ClassNotFoundException | SQLException e) {
+            Properties properties = PropertiesHolderUtils.loadPropertiesFile("config.properties");
+            Class.forName(properties.getProperty(AppPropertyEnum.DB_DRIVER_CLASS.getFileString()));
+            connection = DriverManager.getConnection(properties.getProperty(AppPropertyEnum.DB_URL.getFileString()), properties.getProperty(AppPropertyEnum.DB_USER.getFileString()), properties.getProperty(AppPropertyEnum.DB_PASSWORD.getFileString()));
+        } catch (ClassNotFoundException | SQLException | IOException e) {
             e.printStackTrace();
         }
     }
